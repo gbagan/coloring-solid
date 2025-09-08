@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
   font-size: 1vmax;
@@ -41,7 +39,7 @@
   }
 
   .dialog {
-    @apply bg-white rounded-lg shadow backdrop:bg-gray-500 backdrop:bg-opacity-70;
+    @apply left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-white rounded-lg shadow backdrop:bg-gray-500/70;
   }
   
   .dialog-title {
